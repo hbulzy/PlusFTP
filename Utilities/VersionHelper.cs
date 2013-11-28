@@ -65,7 +65,7 @@ namespace Hani.Utilities
                         }
                     }
                 }
-                catch { return null; }
+                catch { return false; }
                 finally { if (vResponse != null) vResponse.Dispose(); }
             }
 
