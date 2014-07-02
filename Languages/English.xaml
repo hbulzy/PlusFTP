@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
     <FlowDirection x:Key="LangDirection">LeftToRight</FlowDirection>
@@ -56,7 +56,7 @@
     <sys:String x:Key="LangGroupBoxGeneralOptions">General Options</sys:String>
     <sys:String x:Key="LangGroupBoxOptions">Options</sys:String>
     <sys:String x:Key="LangGroupBoxProxyServer">Proxy Server:</sys:String>
-    <sys:String x:Key="LangGroupBoxServerFiles">Server's Files</sys:String>
+    <sys:String x:Key="LangGroupBoxServerFiles">Server Files</sys:String>
     <sys:String x:Key="LangGroupBoxTotal">Total</sys:String>
     <sys:String x:Key="LangGroupBoxTransferOptions">Transfer Options</sys:String>
     <sys:String x:Key="LangGroupBoxYourFiles">Your Files</sys:String>
@@ -114,7 +114,7 @@
     <sys:String x:Key="LangMBMoveTitle">Confirming Move</sys:String>
     <sys:String x:Key="LangMBRemoveAccount">Do you want to remove this account?</sys:String>
     <sys:String x:Key="LangMBRemoveAccountTitle">Removing Account</sys:String>
-    <sys:String x:Key="LangMBUpdateFails">Cannot connect to the site to check for the latest version! Please check your network connection.</sys:String>
+    <sys:String x:Key="LangMBUpdateFails">Can't connect to the site to check for the latest version! Please check your network connection.</sys:String>
     <sys:String x:Key="LangMenuItemCopy">Copy</sys:String>
     <sys:String x:Key="LangMenuItemSaveAs">Save As</sys:String>
     <sys:String x:Key="LangMenuItemSelectAll">Select All</sys:String>
@@ -147,8 +147,8 @@
     <sys:String x:Key="LangOperationUploading">Uploading</sys:String>
     <sys:String x:Key="LangPlusFTPLog">PlusFTPLog</sys:String>
     <sys:String x:Key="LangRadioButtonAskMeEveryTime">Ask me every time.</sys:String>
-    <sys:String x:Key="LangRadioButtonTillRestart">This is the default action till I restart the App.</sys:String>
-    <sys:String x:Key="LangRadioButtonTillSessionEnds">This is the default action till this upload/download session ends.</sys:String>
+    <sys:String x:Key="LangRadioButtonTillRestart">This is the default action untill I restart the App.</sys:String>
+    <sys:String x:Key="LangRadioButtonTillSessionEnds">This is the default action untill this upload/download session ends.</sys:String>
     <sys:String x:Key="LangSizeBytes">Bytes</sys:String>
     <sys:String x:Key="LangSizeGB">GB</sys:String>
     <sys:String x:Key="LangSizeKB">KB</sys:String>
@@ -163,8 +163,8 @@
     <sys:String x:Key="LangTextBlockCalculatingItems_X_Y">Calculating items: Files {0}, Folders {1}</sys:String>
     <sys:String x:Key="LangTextBlockCurrentVersion_x">Current Version: {0}</sys:String>
     <sys:String x:Key="LangTextBlockExplainChooseTargetFolder">Through this window, you can pick the folder you want to move your selected files or folders to it. In addition, remember that it will only display folders.</sys:String>
-    <sys:String x:Key="LangTextBlockNewFolderinfo">Type the name of the folder you want to create in the flowing field:</sys:String>
-    <sys:String x:Key="LangTextBlockNewNameinfo">Type the new name you want to use in the flowing field:</sys:String>
+    <sys:String x:Key="LangTextBlockNewFolderinfo">Type the name of the folder you want to create in the following field:</sys:String>
+    <sys:String x:Key="LangTextBlockNewNameinfo">Type the new name you want to use in the following field:</sys:String>
     <sys:String x:Key="LangTextBlockNewVersion_x">New Version:  {0}</sys:String>
     <sys:String x:Key="LangTextBlockNewVersionDownload">A new version is available. would you like to download it?</sys:String>
     <sys:String x:Key="LangTextBlockSameNameExists">The same name already exists!</sys:String>
