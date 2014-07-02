@@ -18,7 +18,7 @@ namespace Hani.FTP
 
             private static void _set()
             {
-                reg = new Regex(@"\|([0-9]+)\|\)$", RegexOptions.Compiled);
+                reg = new Regex(@"\|([0-9]+)\|\)", RegexOptions.Compiled);
             }
 
             internal static bool Parse(string responsed, ref int port)
@@ -49,7 +49,7 @@ namespace Hani.FTP
 
             private static void _set()
             {
-                reg = new Regex(@"\(([\d,]+)\)$");
+                reg = new Regex(@"\(([\d,]+)\)");
             }
 
             internal static bool Parse(string responsed, ref string host, ref int port)
